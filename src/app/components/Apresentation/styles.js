@@ -10,6 +10,12 @@ export const Container = styled.div`
   background: url(${background}) no-repeat center;
   background-size: cover;
   position: relative;
+	opacity: 100%;
+
+	@media (max-width: 1000px) {
+		background-position: top;
+		background-size: contain;
+	}
 `;
 
 export const BackgroundFade = styled.div`
@@ -20,5 +26,6 @@ export const BackgroundFade = styled.div`
   width: 100%;
   min-height: 100%;
   background: linear-gradient(to bottom, ${({ theme }) => theme.colors.primary}, #11102B);
-  opacity: 80%;
+	// background: linear-gradient(to bottom, red, blue 60%);
+	opacity: 90%;
 `;

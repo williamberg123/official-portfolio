@@ -18,6 +18,19 @@ export const ProfileFigure = styled.figure`
   width: 200px;
   height: 200px;
   border-radius: 50%;
+	animation: entrada 1.2s;
+
+	@keyframes entrada {
+		0% {
+			opacity: 0%;
+			transform: translateX(-100px) scale(0.5);
+		}
+
+		100% {
+			opacity: 100%;
+			transform: translateX(0px) scale(1);
+		}
+	}
 `;
 
 export const ProfileImage = styled.img`
@@ -53,6 +66,20 @@ export const SocialMediaContainer = styled.div`
 
 	@media (max-width: 600px) {
 		margin: auto;
+	}
+
+	animation: entradaSocialMediaContainer 1.2s;
+
+	@keyframes entradaSocialMediaContainer {
+		0% {
+			opacity: 0%;
+			transform: translateX(100px) scale(0.5);
+		}
+
+		100% {
+			opacity: 100%;
+			transform: translateX(0px) scale(1);
+		}
 	}
 `;
 
@@ -106,6 +133,20 @@ export const ActionsButtonContainer = styled.div`
 	@media (max-width: 700px) {
 		justify-content: center;
 	}
+
+	animation: entradaActionsContainer 1.2s;
+
+	@keyframes entradaActionsContainer {
+		0% {
+			opacity: 0%;
+			transform: translateY(100px) scale(0.5);
+		}
+
+		100% {
+			opacity: 100%;
+			transform: translateY(0px) scale(1);
+		}
+	}
 `;
 
 export const ProfileCodeContainer = styled.div`
@@ -114,6 +155,20 @@ export const ProfileCodeContainer = styled.div`
 
 	@media (max-width: 600px) {
 		margin-top: 20px;
+	}
+
+	animation: entradaProfileCodeContainer 1.5s;
+
+	@keyframes entradaProfileCodeContainer {
+		0% {
+			opacity: 0%;
+			transform: scale(0.5);
+		}
+
+		100% {
+			opacity: 100%;
+			transform: scale(1);
+		}
 	}
 `;
 

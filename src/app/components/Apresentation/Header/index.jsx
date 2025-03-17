@@ -5,6 +5,7 @@ import { MdOutlineDownloading } from 'react-icons/md';
 import { HiOutlineMail } from 'react-icons/hi';
 import Logo from '../../Logo';
 import Button from '../../Button';
+
 import {
 	Container, ProfileFigure, ProfileImage, ProfileInformationsContainer,
 	ProfileCodeContainer, ActionsButtonContainer, SocialMediaContainer, SocialMediaLink,
