@@ -6,6 +6,7 @@ export const Span = styled.span`
   color: ${({ theme }) => theme.colors.secondary};
   font-size: ${({ theme }) => theme.spacing['2xlarge']};
 	animation: entrada 1.2s;
+	user-select: none;
 
   & .white {
     color: white;

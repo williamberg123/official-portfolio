@@ -9,6 +9,16 @@ export const Container = styled.nav`
 	bottom: 20px;
 	left: calc(50% - 165px);
 	z-index: 10;
+
+	@media (max-width: 900px) {
+		width: 90%;
+		padding: 10px;
+		left: 5%;
+		bottom: 10px;
+		border-radius: 50px;
+		background-color: ${({ theme }) => theme.colors.primary};
+		border: 2px solid ${({ theme }) => theme.colors.primaryLight};
+	}
 `;
 
 export const Ul = styled.ul`
@@ -48,4 +58,9 @@ export const NavLink = styled(Link)`
 			color: white;
 		}
 	`}
+
+	@media (max-width: 900px) {
+		width: 60px;
+		height: 60px;
+	}
 `;

@@ -24,4 +24,8 @@ export const StyledButton = styled.button`
       height: 20px;
     }
   `}
+
+	&:hover {
+		opacity: 0.8;
+	}
 `;

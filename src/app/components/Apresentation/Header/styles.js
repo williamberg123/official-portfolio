@@ -37,6 +37,8 @@ export const ProfileImage = styled.img`
   width: 100%;
   height: 100%;
   border-radius: 50%;
+	user-select: none;
+	pointer-events: none;
 `;
 
 export const ProfileInformationsContainer = styled.div`

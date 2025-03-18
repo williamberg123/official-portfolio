@@ -38,7 +38,7 @@ export default function Header() {
 							<FaGithub />
 						</SocialMediaLink>
 
-						<SocialMediaLink href="https://www.instagram.com/wi_diogo/" target="_blank">
+						<SocialMediaLink href="https://www.instagram.com/wi_berrg/" target="_blank">
 							<FaInstagram />
 						</SocialMediaLink>
 					</SocialMediaContainer>

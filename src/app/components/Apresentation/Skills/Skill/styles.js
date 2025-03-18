@@ -6,10 +6,31 @@ export const Container = styled.div`
 	align-items: center;
 	animation: skill-animation 1.5s alternate;
 	animation-delay: ${({ delay }) => `${delay}s`};
+	transition: 0.4s;
+
+	&:hover {
+		transform: rotateY(20deg) rotateX(-20deg);
+	}
 
 	@keyframes skill-animation {
 		0% {
 			transform: translateY(50px);
+			opacity: 0%;
+		}
+
+		50% {
+			transform: translateY(-30px);
+		}
+
+		100% {
+			transform: translateY(0px);
+			opacity: 100%;
+		}
+	}
+
+	@keyframes skill-card {
+		0% {
+			transform: translate3d(90deg);
 			opacity: 0%;
 		}
 
