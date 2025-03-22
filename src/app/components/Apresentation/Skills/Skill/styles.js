@@ -7,9 +7,10 @@ export const Container = styled.div`
 	animation: skill-animation 1.5s alternate;
 	animation-delay: ${({ delay }) => `${delay}s`};
 	transition: 0.4s;
+	cursor: pointer;
 
 	&:hover {
-		transform: rotateY(20deg) rotateX(-20deg);
+		transform: rotateY(20deg) rotateX(-20deg) scale(0.98);
 	}
 
 	@keyframes skill-animation {
