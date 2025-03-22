@@ -46,12 +46,12 @@ export const Container = styled.div`
 	}
 `;
 
-export const SkillImage = styled.div`
+export const SkillImage = styled.img`
 	width: 150px;
 	height: 150px;
 	aspect-ratio: 1/1;
 	border-radius: ${({ theme }) => theme.spacing.large};
-	background-color: ${({ theme }) => theme.colors.terciary};
+	// background-color: ${({ theme }) => theme.colors.terciary};
 `;
 
 export const SkillName = styled.span`
