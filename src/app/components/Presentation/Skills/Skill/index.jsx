@@ -13,7 +13,7 @@ export default function Skill({ item, delay }) {
 	return (
 		<>
 			<Container onClick={toggleSkillDetailModal} delay={delay}>
-				<SkillImage src={item.skillImage} />
+				<SkillImage src={item?.tecImage?.url} />
 				<SkillName>
 					{item.name}
 				</SkillName>

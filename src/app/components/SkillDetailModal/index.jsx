@@ -7,6 +7,7 @@ export default function SkillDetailModal({ skill, toggleModal }) {
 	return createPortal(
 		<Container>
 			<h1>{skill.name}</h1>
+			<p>{skill.description}</p>
 			<IoIosCloseCircle onClick={toggleModal} />
 		</Container>,
 		document.getElementById('skill-detail-root'),

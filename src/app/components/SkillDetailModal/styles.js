@@ -6,9 +6,17 @@ export const Container = styled.div`
 	left: 2.5%;
 	width: 95%;
 	height: 95%;
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: rgba(0, 0, 0, 0.8);
 	z-index: 10;
 	border-radius: 20px;
+	padding: 20px;
+
+	& > p {
+		margin-top: 50px;
+		font-size: 30px;
+		color: gray;
+		font-weight: lighter;
+	}
 
 	& svg {
 		position: absolute;
