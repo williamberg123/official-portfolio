@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-// eslint-disable-next-line
 import { ApolloProvider } from '@apollo/client';
 
-import App from './app';
 import { client } from './app/services/apollo';
+import App from './app';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
